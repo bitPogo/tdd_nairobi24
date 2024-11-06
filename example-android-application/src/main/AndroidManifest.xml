@@ -1,0 +1,25 @@
+<!--
+  ~ Copyright (c) 2024 Matthias Geisler (bitPogo) / All rights reserved.
+  ~
+  ~ Use of this source code is governed by Apache v2.0
+  -->
+
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <application
+        android:name="tech.antibytes.project.example.app.ExampleApp"
+        android:supportsRtl="true"
+    >
+        <activity
+            android:name="tech.antibytes.project.example.app.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

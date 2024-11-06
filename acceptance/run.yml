@@ -1,0 +1,9 @@
+appId: tech.antibytes.project.example.app
+---
+- launchApp:
+    clearState: true
+    permissions:
+      android.permission.ACCESS_COARSE_LOCATION: allow
+      android.permission.ACCESS_FINE_LOCATION: allow
+      android.permission.INTERNET: allow
+      android.permission.ACCESS_NETWORK_STATE: allow
