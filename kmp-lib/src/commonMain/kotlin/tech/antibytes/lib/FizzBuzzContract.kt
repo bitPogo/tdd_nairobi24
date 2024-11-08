@@ -6,6 +6,6 @@
 
 package tech.antibytes.lib
 
-interface Dependency {
-    fun doSomethingElse(): String
+fun interface FizzBuzzContract {
+    fun fizzBuzz(value: Int): String
 }
